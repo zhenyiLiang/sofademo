@@ -1,4 +1,4 @@
-#sofademo
+# sofademo
 ## 项目结构
    1. ibs-sofawebdemo,ibs-sofaconsumerdemo和ibs-sofaproviderdemo依赖ibs-parent
    2. ibs-sofawebdemo是sofa web项目
