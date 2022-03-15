@@ -10,3 +10,9 @@
    1. 配置启动的jvm参数，-Dspring.profiles.active=port,否则会端口冲突 
    2. 启动ibs-sofawebdemo，ibs-sofaconsumerdemo和ibs-sofaproviderdemo
    3. 访问http://127.0.0.1:8341/sofarest/hello?message=sofademo
+   4. 也可以使用postman 发送post请求http://127.0.0.1:8341/sofarest/hello,请求参数
+      ```json
+        {
+          "message":"sofademo"
+        }
+        ```
